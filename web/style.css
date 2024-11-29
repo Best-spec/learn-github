@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-top {
+    display: flex;
+    justify-content: flex-end; /* จัดให้อยู่กึ่งกลางในแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+    /* border: 1px dashed red; */
+    padding: 6px 9px 6px 6px;
+    height: 48px;
+}
+
+.nav-top ul {
+    /* border: 1px dashed red; */
+    display: flex;
+    justify-content: center; /* จัดเนื้อหาใน ul ให้กึ่งกลางแนวนอน */
+    align-items: center; /* จัดเนื้อหาใน ul ให้กึ่งกลางแนวตั้ง */
+    list-style: none; /* ลบจุดหน้ารายการ */
+    margin: 0; 
+    padding: 0;
+}
+
+.nav-top ul a {
+    font: 13px/24px Roboto,Arial,sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.gb-a {
+    padding: 0 15px 0 0;
+}
+
+.gb-b {
+    padding: 4px 4px 4px 0px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center; /* จัดเนื้อหาใน ul ให้กึ่งกลางแนวนอน */
+    align-items: center;
+}
+.gb-c {
+    padding: 4px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center; /* จัดเนื้อหาใน ul ให้กึ่งกลางแนวนอน */
+    align-items: center;
+}
+
+.logo-google  {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.form-input {
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-input form input{
+    /* width: 582px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid transparent;
+    background-color: #4d5156; */
+}
+
+.field-input {
+    width: 582px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid transparent;
+    background-color: #4d5156;
+    display: flex;
+    align-items: center;
+}
+
+.s-icon {
+    padding: 0 13px 0 14px;
+    fill: white;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-input {
+    /* display: flex; */
+    /* justify-content: center; */
+}
