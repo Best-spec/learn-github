@@ -43,15 +43,23 @@ body {
 
 .field-input {
   display: flex;
+  justify-content: center;
   padding-right: 15vh;
-  /* width: 100%; */
+  width: 100%;
   input {
     height: 3vh;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  h1 {
+    width: 160px;
   }
 }
 .btn-change {
   height: 3vh;
+
   button {
+    margin: 0 10px;
     height: 3vh;
     width: 6vh;
   }
