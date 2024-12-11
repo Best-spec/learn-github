@@ -1,15 +1,29 @@
+let x,
+  keepint,
+  int1,
+  result,
+  p = 0;
+
 function changetext(value) {
   document.getElementById("select").innerHTML = value;
   return value;
 }
 
 document.getElementById("tab1").onclick = function () {
-  changetext("เงินที่เหลือ"); // ใช้ค่าที่ได้จากฟังก์ชัน
-  console.log(changetext("เงินที่เหลือ"));
+  x = changetext("เงินที่เหลือ");
 };
 
 document.getElementById("tab2").onclick = function () {
-  changetext("วันนี้ใช้เงิน");
+  x = changetext("วันนี้ใช้เงิน");
 };
 
-console.log(result);
+document.getElementById("tap").onclick = function () {
+  result = document.getElementById("num-input").value;
+  int1 = parseInt(result, 10);
+  if (x == "เงินที่เหลือ") {
+    document.getElementById("my-cash").innerText = result;
+  } else if (x == "วันนี้ใช้เงิน") {
+    p += int1;
+    document.getElementById("use-cash").innerText = p;
+  }
+};
